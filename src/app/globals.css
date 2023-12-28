@@ -16,12 +16,26 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+h1 {
+  font-size: 24px;
+}
+
+.TransactionPage{
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.TransactionPageBanner{
+  grid-row: 1;
+}
+
+.TransactionPageDataPrevisual{
+  grid-row: 1;
+}
+
+.DataPreVisualStyle{
+  margin-top: 10%;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
 }
